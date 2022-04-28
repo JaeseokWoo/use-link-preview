@@ -1,6 +1,6 @@
 {
   "name": "use-link-preview",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react custom hook for link-preview",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
