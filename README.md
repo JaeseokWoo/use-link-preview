@@ -66,17 +66,17 @@ const { metadata, isLoading, isError } = useLinkPreview(url);
 
 ### types
 
-**metadata**
+- **metadata**
 
-- title: string | null;
-- description: string | null;
-- img: string | null;
-- domain: string;
-- requestUrl: string;
+  - title: string | null;
+  - description: string | null;
+  - img: string | null;
+  - domain: string;
+  - requestUrl: string;
 
-**isLoading**: boolean
+- **isLoading**: boolean
 
-**isError**: Error | null
+- **isError**: Error | null
 
 ## Demo
 
