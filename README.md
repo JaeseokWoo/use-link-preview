@@ -37,11 +37,13 @@ function LinkPreview({ url }) {
       {isLoading && <LoadingComponent />}
       {isError && <ErrorComponent />}
       {metadata && (
+        <>
           <h3>{metadata.title}</h3>
           <p>{metadata.description}</p>
           <p>{metadata.domain}</p>
           <img src={metadata.img} />
           <p>{metadata.requestUrl}</p>
+        </>
       )}
     </>
   );
